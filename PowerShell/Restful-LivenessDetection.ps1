@@ -5,8 +5,8 @@ $jwt = ''
 # To specify the endpoint, go to your client in the BWS Portal and select “Update client”. 
 # The grpc endpoint is specified there.
 $bwsEndpoint = '' # 'https://grpc.xxx-xxx.bioid.com'
-$fileName1 = 'C:\Users\testuser\1.png'
-$fileName2 = 'C:\Users\testuser\2.png'
+$fileName1 = 'C:\Users\test.user\1.png'
+$fileName2 = 'C:\Users\test.user\2.png'
 
 # Create empty array for liveImages
 $liveImages = @()
