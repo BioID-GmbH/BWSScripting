@@ -5,7 +5,7 @@ $jwt = ''
 # To specify the endpoint, go to your client in the BWS Portal and select “Update client”. 
 # The grpc endpoint is specified there.
 $bwsEndpoint = '' # 'https://grpc.xxx-xxx.bioid.com'
-$fileName = 'C:\Users\test.user\1.mp4'
+$fileName =  $home + '/1.mp4'
 
 # Encode video to base64 
 $base64Video = [Convert]::ToBase64String([IO.File]::ReadAllBytes($fileName));
