@@ -5,9 +5,9 @@ $jwt = ''
 # To specify the endpoint, go to your client in the BWS Portal and select “Update client”. 
 # The grpc endpoint is specified there.
 $bwsEndpoint = '' # 'https://grpc.xxx-xxx.bioid.com'
-$fileName1 = 'C:\Users\test.user\1.png'
-$fileName2 = 'C:\Users\test.user\2.png'
-$fileName3 = 'C:\Users\test.user\idphoto.jpg'
+$fileName1 = $home + '/1.png'
+$fileName2 = $home + '/2.png'
+$fileName3 = $home + '/idphoto.jpg'
 
 # If you do not want to perform a liveness detection at all, simply set this flag to true.
 $disableLivenessDetection = $false
