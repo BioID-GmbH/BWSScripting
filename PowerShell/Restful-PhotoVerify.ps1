@@ -15,7 +15,7 @@ $disableLivenessDetection = $false
 # Create empty array for liveImages
 $liveImages = @()
 # Create tag for head movement (relative to first image)
-$secondImageTags = @("down")
+$secondImageTags = @("right")
 
 # Set first live image
 $liveImage1 = @{
