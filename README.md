@@ -21,7 +21,7 @@ To use the scripts in this repository, you will need:
    - Log in to the [BWS Portal][bwsportal]
    - Select your client, click on the key symbol, and generate a **Client Access Token (JWT)** for authenticating API requests.
 3. **BWS gRPC Endpoint URL**: To specify the endpoint, go to your client in the BWS Portal and select “Update client”. 
-4. **Images or Video**: You will need image files to use with the API (e.g., live-1.png, live-2.png) for liveness detection. Please test our media files first.
+4. **Images or Videos**: You will need image files to use with the API (e.g., live-1.png, live-2.png) for liveness detection. Please test our [media files](./media) first.
 
 ## More technical information about
 - [**Liveness Detection**][liveness]
