@@ -16,7 +16,7 @@ fileName3="$HOME/idphoto.jpg"
 
 # Check if the image files exist
 if [ ! -f "$fileName1" ] || [ ! -f "$fileName2" ] || [ ! -f "$fileName3" ]; then
-  echo "Error: One or all image files do not exist in the path $Home."
+  echo "Error: One or all image files do not exist in the path $HOME."
   exit 1
 fi
 
