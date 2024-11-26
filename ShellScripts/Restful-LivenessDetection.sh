@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # Please go to the BWS Portal (bwsportal.bioid.com), select your client and click on the key symbol. 
-# At the end of the dialog you will find a link “Client Access Token (JWT)”. 
+# At the end of the dialog you will find a link "Client Access Token (JWT)". 
 # Click on it and generate a JWT and insert it here.
 jwt=""
 
-# To specify the endpoint, go to your client in the BWS Portal and select “Update client”. 
+# To specify the endpoint, go to your client in the BWS Portal and select "Update client". 
 # The grpc endpoint is specified there.
 bwsEndpoint=""  # 'https://grpc.xxx-xxx.bioid.com'
 
@@ -15,7 +15,7 @@ fileName2="$HOME/live-2.png"
 
 # Check if the image files exist
 if [ ! -f "$fileName1" ] || [ ! -f "$fileName2" ]; then
-  echo "Error: One or both image files do not exist in the paht $HOME."
+  echo "Error: One or both image files do not exist in the path $HOME."
   exit 1
 fi
 
